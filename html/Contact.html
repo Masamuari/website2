@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link id="themeswap" rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link rel="icon" href="assets/img/Yo!.png">
+
+
+    <title>Contact</title>
+</head>
+<body id="accueil1">
+<div class="conteneur">
+<header>
+        <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a>Contact</a></li>
+                <li><a class="nav-lien" onclick="toogleTheme()" href="#">Theme</a></li>
+        </ul>
+</header>
+
+<form> 
+  <input type="button" value="Haut" class="bouton" id="buton" onclick="location.href='Contact.html'">
+</form>
+
+    <h1 class="titre">
+            
+          Me Contacter
+        
+    </h1> 
+
+</div> 
+
+<div class="toggle_btn">
+		<span></span>
+	</div>
+	
+<div class="menu nav">
+	<a href="#" class="logo">Infos :</a>
+	<a href="Mesjeux.html" style="color:black"> Mes jeux</a>
+	<a href="Occupation.html" style="color:black">Occupation</a>
+	<a href="Animes.html" style="color:black">Animes</a>
+	</div>
+
+<div class="block" id="sidebar">   
+	<h3>Infos :</h3>
+	<table>
+		<tr>
+			<td>
+                <a href="Mesjeux.html" style="color:black"> Mes jeux</a>
+                <br>
+                <a href="Occupation.html" style="color:black">Occupation</a>
+                <br>
+                <a href="Animes.html" style="color:black">Animes</a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+	<article>
+		<form action="https://getform.io/f/f1b00923-12a9-4980-b8d7-d6c164dd8055" method="POST" class="block5">
+			<h2 class="texte2"><label  for="name" >Votre Nom<a class="obligatoire">*</a></label></h2>
+			<input type="text" id="name" name="name" required>
+			
+			<h2 class="texte2"><label for="Mail">Votre Mail<a class="obligatoire">*</a></label></h2>
+			<input type="email" id="Mail" name="mail" required>
+			
+			<h2 class="texte2"><label for="Message">Votre Message<a class="obligatoire">*</a></label></h2>
+			 <textarea id="Message" name="message" required></textarea>
+			
+			<input type="submit" value="Envoyer" class="bouton2">
+			</form>
+	</article>
+
+	<script src="assets/java/java.js"></script>
+   
+</body>
+</html>
